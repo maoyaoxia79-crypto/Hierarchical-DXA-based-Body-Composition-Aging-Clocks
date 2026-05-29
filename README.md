@@ -80,5 +80,5 @@ The clinical and DXA data used in this study were obtained from the **UK Biobank
 This repository is licensed under the **MIT License**. If you use this code in your research, please cite our paper:
 
 ```
-[Insert citation here once published]
+[Maoyao Xia, et al. 2026(IN SUBMISSION)]
 ```
