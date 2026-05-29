@@ -4,46 +4,39 @@
 
 # Session Data files
 .RData
-.RDataTmp
+.RData-tmp
 
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
+# RStudio project files
 .Rproj.user/
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# Large Data files (Raw or processed UK Biobank data)
+*.RData
+*.rds
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.pptx
+*.pdf
+*.tif
+*.ai
+*.svg
+*.dat
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+# Output directories
+output*/
+output/
+image/
+正式撰写论文/
+以dat.analysis12_impute训练集作为标化的新分析/
+没有LASSO但是去除共线性 和 LASSO了但是不加入年龄/
+DXA计算器专利申请/
+LASSO and no LASSO/
+*.log
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+# Except specific files if needed (e.g. README, code files)
+!README.md
+!code/
+!code/*.R
+!LICENSE
+!.gitignore
